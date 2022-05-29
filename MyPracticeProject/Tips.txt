@@ -1,0 +1,8 @@
+
+# 1. Running Files With Multiple Main
+Right click these source files which contain a main function and 
+you don't want to run in the solution explorer window, 
+then go to property->configuration->general->excluded from build, 
+select yes. 
+So these source files won't compile and run when you build 
+and run the project.
