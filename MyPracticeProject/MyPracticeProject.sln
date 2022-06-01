@@ -5,6 +5,11 @@ VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyPracticeProject", "MyPracticeProject\MyPracticeProject.vcxproj", "{E94CC149-FDD0-44F1-960D-CFDD7CB8D3ED}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AD1F121D-D6E0-47C0-BF0C-3FCF5663CB85}"
+	ProjectSection(SolutionItems) = preProject
+		Tips.txt = Tips.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
