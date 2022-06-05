@@ -27,12 +27,21 @@
     <ClCompile Include="main_circle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MinMax.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main_sandbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="YouTubeChannel.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Circle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MinMax.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
