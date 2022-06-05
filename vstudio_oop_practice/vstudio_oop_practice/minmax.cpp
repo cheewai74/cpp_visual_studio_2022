@@ -4,7 +4,7 @@
 void MinMax::getValue() {
 	std::cout << "Enter A: ";
 	std::cin >> val_A;
-	std::cout << " Enter B: ";
+	std::cout << "Enter B: ";
 	std::cin >> val_B;
 }
 
