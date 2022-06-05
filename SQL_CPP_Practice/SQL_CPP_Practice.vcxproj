@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{e94cc149-fdd0-44f1-960d-cfdd7cb8d3ed}</ProjectGuid>
-    <RootNamespace>MyPracticeProject</RootNamespace>
+    <ProjectGuid>{6a16bda9-412b-4627-8a8e-155850929a2d}</ProjectGuid>
+    <RootNamespace>SQLCPPPractice</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\moses\source\repos\moseswong74\cpp_visual_studio_2022\SQL_CPP_Practice\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -118,6 +119,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\moses\source\repos\moseswong74\cpp_visual_studio_2022\SQL_CPP_Practice\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,28 +129,44 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Food.cpp" />
-    <ClCompile Include="HelloWorld.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="invokePrinter.cpp">
+    <ClCompile Include="D:\Currently_Studying\cpp\sql\Ex_Files_Using_SQL_with_Cplusplus\ExerciseFiles\Chap02\02-solution.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="invoke_myclass.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Printer.cpp" />
-    <ClCompile Include="HeaderFile_Main_Example.cpp">
+    <ClCompile Include="D:\Currently_Studying\cpp\sql\Ex_Files_Using_SQL_with_Cplusplus\ExerciseFiles\Chap02\db-prepare_test.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="D:\Currently_Studying\cpp\sql\Ex_Files_Using_SQL_with_Cplusplus\ExerciseFiles\Chap02\db-query_test.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="D:\Currently_Studying\cpp\sql\Ex_Files_Using_SQL_with_Cplusplus\ExerciseFiles\Chap02\db-value_test.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="D:\Currently_Studying\cpp\sql\Ex_Files_Using_SQL_with_Cplusplus\ExerciseFiles\Chap02\hello-sqlite3_version.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="D:\Currently_Studying\cpp\sql\Ex_Files_Using_SQL_with_Cplusplus\ExerciseFiles\Chap02\hello-sqlite_test.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="D:\Currently_Studying\cpp\sql\Ex_Files_Using_SQL_with_Cplusplus\ExerciseFiles\Chap03\bwcrud-test.cpp" />
+    <ClCompile Include="D:\Currently_Studying\cpp\sql\Ex_Files_Using_SQL_with_Cplusplus\ExerciseFiles\Chap03\BWCRUD.cpp" />
+    <ClCompile Include="D:\Currently_Studying\cpp\sql\Ex_Files_Using_SQL_with_Cplusplus\ExerciseFiles\Chap03\bwsql-test.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="D:\Currently_Studying\cpp\sql\Ex_Files_Using_SQL_with_Cplusplus\ExerciseFiles\Chap03\BWSQL.cpp" />
+    <ClCompile Include="D:\Currently_Studying\cpp\sql\sqlite-amalgamation-3380500\sqlite3.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Food.h" />
-    <ClInclude Include="MyClass.h" />
-    <ClInclude Include="Printer.h" />
+    <ClInclude Include="D:\Currently_Studying\cpp\sql\Ex_Files_Using_SQL_with_Cplusplus\ExerciseFiles\Chap03\BWCRUD.h" />
+    <ClInclude Include="D:\Currently_Studying\cpp\sql\Ex_Files_Using_SQL_with_Cplusplus\ExerciseFiles\Chap03\BWSQL.h" />
+    <ClInclude Include="D:\Currently_Studying\cpp\sql\Ex_Files_Using_SQL_with_Cplusplus\ExerciseFiles\sqlite3\include\sqlcpp.h" />
+    <ClInclude Include="D:\Currently_Studying\cpp\sql\sqlite-amalgamation-3380500\sqlite3.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
