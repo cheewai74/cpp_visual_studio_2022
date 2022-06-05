@@ -1,0 +1,4 @@
+Check project configuration. Linker->System->SubSystem should be Windows.
+
+youtube link
+https://www.youtube.com/watch?v=FOIbK4bJKS8&t=1301s
