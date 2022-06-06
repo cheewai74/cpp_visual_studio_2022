@@ -41,6 +41,7 @@ void cMain::OnButtonClicked(wxCommandEvent& evt) {
 	int y = (evt.GetId() - 10000) / mFieldWidth;
 
 	if (bFirstClick) {
+
 		int mines = 30;
 
 		while (mines)
@@ -49,6 +50,7 @@ void cMain::OnButtonClicked(wxCommandEvent& evt) {
 			int ry = rand() % mFieldlHeight;
 
 			if (mField[ry * mFieldWidth + rx] == 0 && rx != x && ry != y) {
+				mField[ry * mFieldWidth + rx] = -1;
 				mines--;
 			}
 		}
@@ -60,7 +62,7 @@ void cMain::OnButtonClicked(wxCommandEvent& evt) {
 	btn[y * mFieldWidth + x]->Enable(false);
 
 	// Check if player hit mine
-	if (mField[y * mFieldWidth + x] == -1) {
+	if (mField[y*mFieldWidth + x] == -1) {
 		wxMessageBox("BOOOOOOOOM !! - Game Over :(");
 
 		// Reset Game
@@ -81,7 +83,8 @@ void cMain::OnButtonClicked(wxCommandEvent& evt) {
 			for (int j = -1; j < 2; j++) {
 
 				if (x + i >= 0 && x + i < mFieldWidth && y + j >= 0 && y + j < mFieldlHeight) {
-					mines_count++;
+					if(mField[(y+j)*mFieldWidth +(x+i)]==-1)
+						mines_count++;
 				}
 			}
 
