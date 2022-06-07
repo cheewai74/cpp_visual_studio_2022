@@ -127,7 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="A.cpp" />
+    <ClCompile Include="Area.cpp" />
+    <ClCompile Include="B.cpp" />
+    <ClCompile Include="Base.cpp" />
     <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="Derived.cpp" />
     <ClCompile Include="main_circle.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
@@ -140,13 +145,22 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Perimeter.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
     <ClCompile Include="Shape.cpp" />
     <ClCompile Include="YouTubeChannel.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="A.h" />
+    <ClInclude Include="Area.h" />
+    <ClInclude Include="B.h" />
+    <ClInclude Include="Base.h" />
     <ClInclude Include="Circle.h" />
+    <ClInclude Include="Derived.h" />
     <ClInclude Include="Line.h" />
     <ClInclude Include="MinMax.h" />
+    <ClInclude Include="Perimeter.h" />
+    <ClInclude Include="Rectangle.h" />
     <ClInclude Include="Shape.h" />
     <ClInclude Include="YouTubeChannel.h" />
   </ItemGroup>
