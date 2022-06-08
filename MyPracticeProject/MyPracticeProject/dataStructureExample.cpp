@@ -39,11 +39,13 @@ int main() {
 
 	printSmartphoneInfo(smartphone);
 
-	Smartphone smartphone2;
-	smartphone2.name = "Samsung Galaxy S21";
-	smartphone2.storageSpace = 64;
-	smartphone2.color = "gray";
-	smartphone2.price = 888.88;
+	// Latest version of C++ can do it this way
+	Smartphone smartphone2 = { "Samsung Galaxy S21",64,"gray", 888.88};
+
+	//smartphone2.name = "Samsung Galaxy S21";
+	//smartphone2.storageSpace = 64;
+	//smartphone2.color = "gray";
+	//smartphone2.price = 888.88;
 
 	printSmartphoneInfo(smartphone2);
 
