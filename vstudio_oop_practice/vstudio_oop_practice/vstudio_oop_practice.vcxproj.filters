@@ -63,6 +63,12 @@
     <ClCompile Include="Superuser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="YouTubeChannel.h">
@@ -105,6 +111,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Superuser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BB.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

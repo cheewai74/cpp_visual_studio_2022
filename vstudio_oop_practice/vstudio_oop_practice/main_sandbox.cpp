@@ -10,6 +10,7 @@
 
 // ===== Multiple Inheritance =====
 #include "Rectangle.h"  // Multiple Inheritance Example 1 
+#include "C.h"			// Multiple Inheritance Example 2
 
 // ===== Dynamic Binding =====
 #include <list>
@@ -65,13 +66,23 @@ int main() {
 
 	// ============ Dynamic Binding Example 1 ===================================
 
-	User u;
-	Superuser s;
-	std::list<User*>users;
-	users.push_back(&u);
-	users.push_back(&s);
+	//User u;
+	//Superuser s;
+	//std::list<User*>users;
+	//users.push_back(&u);
+	//users.push_back(&s);
 
-	for (User* usrPtr : users)
-		usrPtr->getPermissions();
+	//for (User* usrPtr : users)
+	//	usrPtr->getPermissions();
+
+	// ============ Multiple Inheritance Example 2 ===================================
+
+	C c1;
+	c1.getX();
+	c1.getY();
+	c1.getZ();
+	c1.showX();
+	c1.showY();
+	c1.showZ();
 
 }
