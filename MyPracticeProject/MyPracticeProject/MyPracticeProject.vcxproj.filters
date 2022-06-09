@@ -51,6 +51,9 @@
     <ClCompile Include="RangeBased_ForLoop_Example_Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="staticBinding_Example_Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyClass.h">

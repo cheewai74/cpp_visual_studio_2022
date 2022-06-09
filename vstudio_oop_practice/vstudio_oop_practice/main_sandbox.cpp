@@ -11,6 +11,10 @@
 // ===== Multiple Inheritance =====
 #include "Rectangle.h"  // Multiple Inheritance Example 1 
 
+// ===== Dynamic Binding =====
+#include <list>
+#include "Superuser.h"
+
 int main() {
 
 	//  -- CTRL KC to block comment CTRL KU to block uncomment
@@ -54,8 +58,20 @@ int main() {
 	//b1.showY();
 
 	// ============ Multiple Inheritance Example 1 ===================================
-	Rectangle r;
-	r.get_data();
-	std::cout << "Area = " << r.area_calc() << std::endl;
-	std::cout << "\nPerimeter = " << r.peri_calc() << std::endl;
+	//Rectangle r;
+	//r.get_data();
+	//std::cout << "Area = " << r.area_calc() << std::endl;
+	//std::cout << "\nPerimeter = " << r.peri_calc() << std::endl;
+
+	// ============ Dynamic Binding Example 1 ===================================
+
+	User u;
+	Superuser s;
+	std::list<User*>users;
+	users.push_back(&u);
+	users.push_back(&s);
+
+	for (User* usrPtr : users)
+		usrPtr->getPermissions();
+
 }

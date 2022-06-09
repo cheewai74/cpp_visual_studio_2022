@@ -148,6 +148,8 @@
     <ClCompile Include="Perimeter.cpp" />
     <ClCompile Include="Rectangle.cpp" />
     <ClCompile Include="Shape.cpp" />
+    <ClCompile Include="Superuser.cpp" />
+    <ClCompile Include="User.cpp" />
     <ClCompile Include="YouTubeChannel.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -162,6 +164,8 @@
     <ClInclude Include="Perimeter.h" />
     <ClInclude Include="Rectangle.h" />
     <ClInclude Include="Shape.h" />
+    <ClInclude Include="Superuser.h" />
+    <ClInclude Include="User.h" />
     <ClInclude Include="YouTubeChannel.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
