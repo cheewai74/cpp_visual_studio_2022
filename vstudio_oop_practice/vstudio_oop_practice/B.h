@@ -9,5 +9,6 @@ class B :
 public:
     void getY();
     void showY();
+    void square();
 };
 

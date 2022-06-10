@@ -9,3 +9,4 @@ void BB::getY() {
 void BB::showY() {
 	std::cout << "\n y: " << y << std::endl;
 }
+

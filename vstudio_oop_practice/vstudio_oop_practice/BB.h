@@ -6,5 +6,6 @@ class BB
 public:
     void getY();
     void showY();
+    void square();
 };
 

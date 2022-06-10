@@ -134,7 +134,11 @@
     <ClCompile Include="BB.cpp" />
     <ClCompile Include="C.cpp" />
     <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="D.cpp" />
     <ClCompile Include="Derived.cpp" />
+    <ClCompile Include="E.cpp" />
+    <ClCompile Include="F.cpp" />
+    <ClCompile Include="G.cpp" />
     <ClCompile Include="main_circle.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
@@ -162,7 +166,11 @@
     <ClInclude Include="BB.h" />
     <ClInclude Include="C.h" />
     <ClInclude Include="Circle.h" />
+    <ClInclude Include="D.h" />
     <ClInclude Include="Derived.h" />
+    <ClInclude Include="E.h" />
+    <ClInclude Include="F.h" />
+    <ClInclude Include="G.h" />
     <ClInclude Include="Line.h" />
     <ClInclude Include="MinMax.h" />
     <ClInclude Include="Perimeter.h" />

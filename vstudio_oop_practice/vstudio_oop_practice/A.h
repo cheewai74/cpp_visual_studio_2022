@@ -5,8 +5,11 @@ class A
 
 public:
 
+	int a, b;
+
 	void getX();
 	void showX();
+	void getnumber();
 
 };
 

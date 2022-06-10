@@ -9,3 +9,9 @@ void B::getY() {
 void B::showY() {
 	std::cout << "\n y: " << y << std::endl;
 }
+
+void B::square() {
+	getnumber();
+	std::cout << "\nSquare of the number :::" <<  (a*a) << std::endl;
+	std::cout << "\n-------------------------------------------------";
+}

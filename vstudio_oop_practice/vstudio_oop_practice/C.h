@@ -10,13 +10,7 @@ class C :
 
 public:
 
-    void getZ() {
-        std::cout << "Enter z: " << std::endl;
-        std::cin >> z;
-    }
-
-    void showZ() {
-        std::cout << "\n z : " << z << std::endl;
-    }
+    void getZ();
+    void showZ();
 };
 

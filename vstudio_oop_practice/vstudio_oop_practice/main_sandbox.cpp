@@ -16,6 +16,9 @@
 #include <list>
 #include "Superuser.h"
 
+// ===== Using Virtual keyword: Inheritance =====
+#include "G.h"
+
 int main() {
 
 	//  -- CTRL KC to block comment CTRL KU to block uncomment
@@ -77,12 +80,37 @@ int main() {
 
 	// ============ Multiple Inheritance Example 2 ===================================
 
-	C c1;
-	c1.getX();
-	c1.getY();
-	c1.getZ();
-	c1.showX();
-	c1.showY();
-	c1.showZ();
+	//C c1;
+	//c1.getX();
+	//c1.getY();
+	//c1.getZ();
+	//c1.showX();
+	//c1.showY();
+	//c1.showZ();
+
+	// ======= Virtual Base Class - Inheritance =========================================
+
+	/**
+
+		Virtual base classes offer a way to save space and avoid 
+		ambiguities in class hierarchies that use multiple inheritances.
+		When a base class is specified as a virtual base, it can act as an 
+		indirect base more than once without duplication of its data members. 
+		A single copy of its data members is shared by all the base classes that use virtual base.
+
+		https://www.geeksforgeeks.org/virtual-base-class-in-c/#:~:
+		text=Virtual%20base%20classes%20are%20used,
+		we%20have%20one%20class%20A%20.
+
+	*/
+
+	//G g;
+	//std::cout << "d= " << g.d << std::endl;
+
+	// ======= Hierarchical Inheritance =========================================
+	B b1;
+	b1.square();
+	D d1;
+	d1.cube();
 
 }

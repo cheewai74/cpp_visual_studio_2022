@@ -11,3 +11,8 @@ void A::showX()
 {
 	std::cout << "\n x : " << x << std::endl;
 }
+
+void A::getnumber() {
+	std::cout << "\n\nEnter Number :::" << std::endl;
+	std::cin >> a;
+}

@@ -69,6 +69,18 @@
     <ClCompile Include="BB.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="YouTubeChannel.h">
@@ -117,6 +129,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="BB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
