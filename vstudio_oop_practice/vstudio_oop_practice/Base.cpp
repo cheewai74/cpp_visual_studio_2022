@@ -3,3 +3,5 @@
 void Base::setData(int v) {
 	val = v;
 }
+
+

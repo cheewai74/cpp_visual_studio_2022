@@ -81,6 +81,9 @@
     <ClCompile Include="G.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="YouTubeChannel.h">
@@ -141,6 +144,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="G.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CC.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -18,6 +18,7 @@
 
 // ===== Using Virtual keyword: Inheritance =====
 #include "G.h"
+#include "CC.h"
 
 int main() {
 
@@ -108,9 +109,23 @@ int main() {
 	//std::cout << "d= " << g.d << std::endl;
 
 	// ======= Hierarchical Inheritance =========================================
+	//B b1;
+	//b1.square();
+	//D d1;
+	//d1.cube();
+
+	// ======= Hierarchical Inheritance II =========================================
+
 	B b1;
-	b1.square();
-	D d1;
-	d1.cube();
+	CC c1;
+	b1.getX();
+	b1.getY();
+	c1.getX();
+	c1.getZ();
+	b1.showX();
+	b1.showY();
+	c1.showX();
+	c1.showZ();
+
 
 }

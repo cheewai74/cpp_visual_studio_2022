@@ -133,6 +133,7 @@
     <ClCompile Include="Base.cpp" />
     <ClCompile Include="BB.cpp" />
     <ClCompile Include="C.cpp" />
+    <ClCompile Include="CC.cpp" />
     <ClCompile Include="Circle.cpp" />
     <ClCompile Include="D.cpp" />
     <ClCompile Include="Derived.cpp" />
@@ -165,6 +166,7 @@
     <ClInclude Include="Base.h" />
     <ClInclude Include="BB.h" />
     <ClInclude Include="C.h" />
+    <ClInclude Include="CC.h" />
     <ClInclude Include="Circle.h" />
     <ClInclude Include="D.h" />
     <ClInclude Include="Derived.h" />
