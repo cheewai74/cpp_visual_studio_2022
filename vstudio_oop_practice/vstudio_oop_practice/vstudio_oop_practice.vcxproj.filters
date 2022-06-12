@@ -84,6 +84,15 @@
     <ClCompile Include="CC.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="top.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="middle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bottom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="YouTubeChannel.h">
@@ -147,6 +156,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="top.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="middle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bottom.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

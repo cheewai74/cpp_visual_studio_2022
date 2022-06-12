@@ -132,6 +132,7 @@
     <ClCompile Include="B.cpp" />
     <ClCompile Include="Base.cpp" />
     <ClCompile Include="BB.cpp" />
+    <ClCompile Include="bottom.cpp" />
     <ClCompile Include="C.cpp" />
     <ClCompile Include="CC.cpp" />
     <ClCompile Include="Circle.cpp" />
@@ -145,6 +146,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="main_sandbox.cpp" />
+    <ClCompile Include="middle.cpp" />
     <ClCompile Include="MinMax.cpp" />
     <ClCompile Include="oop_practice_ex01_main.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
@@ -156,6 +158,7 @@
     <ClCompile Include="Rectangle.cpp" />
     <ClCompile Include="Shape.cpp" />
     <ClCompile Include="Superuser.cpp" />
+    <ClCompile Include="top.cpp" />
     <ClCompile Include="User.cpp" />
     <ClCompile Include="YouTubeChannel.cpp" />
   </ItemGroup>
@@ -165,6 +168,7 @@
     <ClInclude Include="B.h" />
     <ClInclude Include="Base.h" />
     <ClInclude Include="BB.h" />
+    <ClInclude Include="bottom.h" />
     <ClInclude Include="C.h" />
     <ClInclude Include="CC.h" />
     <ClInclude Include="Circle.h" />
@@ -174,11 +178,13 @@
     <ClInclude Include="F.h" />
     <ClInclude Include="G.h" />
     <ClInclude Include="Line.h" />
+    <ClInclude Include="middle.h" />
     <ClInclude Include="MinMax.h" />
     <ClInclude Include="Perimeter.h" />
     <ClInclude Include="Rectangle.h" />
     <ClInclude Include="Shape.h" />
     <ClInclude Include="Superuser.h" />
+    <ClInclude Include="top.h" />
     <ClInclude Include="User.h" />
     <ClInclude Include="YouTubeChannel.h" />
   </ItemGroup>

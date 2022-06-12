@@ -20,6 +20,9 @@
 #include "G.h"
 #include "CC.h"
 
+// ===== MultiLevel Inheritance  Example 1 =====
+#include "bottom.h"
+
 int main() {
 
 	//  -- CTRL KC to block comment CTRL KU to block uncomment
@@ -116,16 +119,19 @@ int main() {
 
 	// ======= Hierarchical Inheritance II =========================================
 
-	B b1;
-	CC c1;
-	b1.getX();
-	b1.getY();
-	c1.getX();
-	c1.getZ();
-	b1.showX();
-	b1.showY();
-	c1.showX();
-	c1.showZ();
+	//B b1;
+	//CC c1;
+	//b1.getX();
+	//b1.getY();
+	//c1.getX();
+	//c1.getZ();
+	//b1.showX();
+	//b1.showY();
+	//c1.showX();
+	//c1.showZ();
 
+	// ======= MultiLevel Inheritance I =========================================
+	bottom b1;
+	b1.cube();
 
 }
