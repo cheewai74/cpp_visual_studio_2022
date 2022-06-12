@@ -4,7 +4,12 @@ int main() {
 
 	int x = 7;
 	// int y = 42;
-	int *ip = &x; // Deferencing the address that store the value x.
+	
+	// The asterisk (*) is used in declaring a pointer for simple purpose of 
+	// indicating that it is a pointer. Don't confuse this with the dereference operator, 
+	// which is used to obtain the value located at the specified address.
+	int *ip = &x; 
+
 	int& y = x;
 
 	printf("The value of x is %d\n", x);
