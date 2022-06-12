@@ -23,6 +23,10 @@
 // ===== MultiLevel Inheritance  Example 1 =====
 #include "bottom.h"
 
+// ==========  Vector ============
+#include "Vector.h"
+#include <vector>
+
 int main() {
 
 	//  -- CTRL KC to block comment CTRL KU to block uncomment
@@ -131,7 +135,17 @@ int main() {
 	//c1.showZ();
 
 	// ======= MultiLevel Inheritance I =========================================
-	bottom b1;
-	b1.cube();
+	//bottom b1;
+	//b1.cube();
 
+	//  ======= Vectors =========================================
+	//  == https://www.freecodecamp.org/news/cpp-vector-how-to-initialize-a-vector-in-a-constructor/ ==
+	std::vector<int> vec;
+
+	vec.push_back(5);
+	vec.push_back(10);
+	vec.push_back(15);
+
+	Vector vect(vec);
+	vect.print();
 }

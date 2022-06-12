@@ -160,6 +160,7 @@
     <ClCompile Include="Superuser.cpp" />
     <ClCompile Include="top.cpp" />
     <ClCompile Include="User.cpp" />
+    <ClCompile Include="Vector.cpp" />
     <ClCompile Include="YouTubeChannel.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -186,6 +187,7 @@
     <ClInclude Include="Superuser.h" />
     <ClInclude Include="top.h" />
     <ClInclude Include="User.h" />
+    <ClInclude Include="Vector.h" />
     <ClInclude Include="YouTubeChannel.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
