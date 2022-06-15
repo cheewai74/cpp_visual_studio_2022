@@ -1,0 +1,13 @@
+# WxWidget
+
+Linker > General: 
+Additional Library Directories:   $(WXWIN)\lib\vc_lib
+
+C/C++ > General:
+Additional Include Directories:   $(WXWIN)\include;$(WXWIN)\include\msvc
+
+C/C++ > Precompiled Headers:
+Precompiled Header:   Not Using Precompiled Headers
+
+Linker > System:
+SubSystem:    Windows (/SUBSYSTEM:WINDOWS)
