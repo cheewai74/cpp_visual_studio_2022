@@ -66,6 +66,9 @@
     <ClCompile Include="function_pointer_example_main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="swap_2_values_example_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyClass.h">
