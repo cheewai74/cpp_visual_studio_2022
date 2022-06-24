@@ -11,3 +11,6 @@ Precompiled Header:   Not Using Precompiled Headers
 
 Linker > System:
 SubSystem:    Windows (/SUBSYSTEM:WINDOWS)
+
+Enviroment variables
+WXWIN   C:\wxWidgets-3.1.7
