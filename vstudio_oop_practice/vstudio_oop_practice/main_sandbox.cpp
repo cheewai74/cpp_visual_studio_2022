@@ -27,6 +27,9 @@
 #include "Vector.h"
 #include <vector>
 
+// ======= Tricycle ===========
+#include "Tricycle.h"
+
 int main() {
 
 	//  -- CTRL KC to block comment CTRL KU to block uncomment
@@ -140,12 +143,23 @@ int main() {
 
 	//  ======= Vectors =========================================
 	//  == https://www.freecodecamp.org/news/cpp-vector-how-to-initialize-a-vector-in-a-constructor/ ==
-	std::vector<int> vec;
+	
+	//std::vector<int> vec;
 
-	vec.push_back(5);
-	vec.push_back(10);
-	vec.push_back(15);
+	//vec.push_back(5);
+	//vec.push_back(10);
+	//vec.push_back(15);
 
-	Vector vect(vec);
-	vect.print();
+	//Vector vect(vec);
+	//vect.print();
+
+	// ==========  Tricycle =======================================
+    Tricycle wichita;
+	wichita.setSpeed(0);
+	wichita.pedal();
+	wichita.pedal();
+	wichita.brake();
+	wichita.brake();
+	wichita.brake();
+
 }
