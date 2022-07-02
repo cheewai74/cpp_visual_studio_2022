@@ -155,7 +155,9 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Perimeter.cpp" />
+    <ClCompile Include="Point.cpp" />
     <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="Rectangle1.cpp" />
     <ClCompile Include="Shape.cpp" />
     <ClCompile Include="Superuser.cpp" />
     <ClCompile Include="top.cpp" />
@@ -183,7 +185,9 @@
     <ClInclude Include="middle.h" />
     <ClInclude Include="MinMax.h" />
     <ClInclude Include="Perimeter.h" />
+    <ClInclude Include="Point.h" />
     <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="Rectangle1.h" />
     <ClInclude Include="Shape.h" />
     <ClInclude Include="Superuser.h" />
     <ClInclude Include="top.h" />

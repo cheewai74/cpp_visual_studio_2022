@@ -30,6 +30,8 @@
 // ======= Tricycle ===========
 #include "Tricycle.h"
 
+#include "Rectangle1.h"
+
 int main() {
 
 	//  -- CTRL KC to block comment CTRL KU to block uncomment
@@ -154,12 +156,19 @@ int main() {
 	//vect.print();
 
 	// ==========  Tricycle =======================================
-    Tricycle wichita;
-	wichita.setSpeed(0);
-	wichita.pedal();
-	wichita.pedal();
-	wichita.brake();
-	wichita.brake();
-	wichita.brake();
+    //Tricycle wichita;
+	
+	//Tricycle wichita(0);
+	//wichita.setSpeed(0);
+	//wichita.pedal();
+	//wichita.pedal();
+	//wichita.brake();
+	//wichita.brake();
+	//wichita.brake();
+
+	Rectangle1 myRectangle(100, 20, 50, 80);
+	int area = myRectangle.getArea();
+
+	std::cout << "Area: " << area << std::endl;
 
 }
