@@ -13,4 +13,16 @@ int main() {
 	delete pRags;
 
 	std::cout << "Exiting, watch Frisky go ....\n";
+
+	SimpleCat* Mristy = new SimpleCat;
+	std::cout << "Mristy is " << Mristy->GetAge() << " years old" << std::endl;
+
+	Mristy->setAge(5);
+
+	std::cout << "Mristy is " << Mristy->GetAge() << " years old" << std::endl;
+
+	delete Mristy;
+
+
+
 }

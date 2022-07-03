@@ -6,5 +6,7 @@ private:
 public:
 	SimpleCat();
 	~SimpleCat();
+	const int GetAge();
+	void setAge(int age);
 };
 
